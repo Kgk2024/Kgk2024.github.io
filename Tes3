@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMM Services Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .service-card {
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .service-card button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .service-card button:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SMM Services Hub</h1>
+    <h2>Your one-stop solution for social media growth</h2>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <h3>Social Media Likes</h3>
+            <p>Boost your posts with 100 likes for just $5!</p>
+            <button onclick="window.location.href='YOUR_GUMROAD_LINK_1'">Buy Now</button>
+        </div>
+        <div class="service-card">
+            <h3>Followers Growth</h3>
+            <p>Gain 50 real Instagram followers for $10!</p>
+            <button onclick="window.location.href='YOUR_GUMROAD_LINK_2'">Buy Now</button>
+        </div>
+        <div class="service-card">
+            <h3>Comments Engagement</h3>
+            <p>Get 20 engaging comments on your post for $8!</p>
+            <button onclick="window.location.href='YOUR_GUMROAD_LINK_3'">Buy Now</button>
+        </div>
+        <div class="service-card">
+            <h3>YouTube Views</h3>
+            <p>Increase your video views by 1000 for $15!</p>
+            <button onclick="window.location.href='YOUR_GUMROAD_LINK_4'">Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to helping you grow your social media presence. Our services are designed for individuals and businesses looking to enhance their online visibility and engagement.</p>
+</section>
+
+<section id="contact">
+    <h2>Get in Touch</h2>
+    <p>For inquiries, please reach out to us at <a href="mailto:your_email@example.com">your_email@example.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 SMM Services Hub. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
